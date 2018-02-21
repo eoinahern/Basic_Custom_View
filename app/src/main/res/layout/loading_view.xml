@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:parentTag="android.widget.FrameLayout">
+
+	<RelativeLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		>
+
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/image"
+			android:visibility="invisible"
+			android:src="@drawable/ic_launcher_background"
+			android:layout_centerInParent="true"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/text"
+			android:layout_below="@id/image"
+			android:layout_marginTop="8dp"
+			android:layout_centerHorizontal="true"
+			android:text="hello"/>
+
+		<ProgressBar
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/prog"
+			android:layout_centerInParent="true"/>
+
+
+	</RelativeLayout>
+
+
+</merge>
